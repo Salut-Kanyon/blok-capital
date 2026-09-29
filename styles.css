@@ -188,7 +188,7 @@ h1, h2, h3 {
   overflow: hidden;
   height: min(48vh, 440px);
   border-radius: 22px;
-  background: #141c18 url("assets/sf-hero-poster.jpg") center 42% / cover no-repeat;
+  background: #141c18 url("assets/sf-hero-poster.jpg?v=2") center center / cover no-repeat;
 }
 .hero-photo img,
 .hero-photo video {
@@ -197,12 +197,12 @@ h1, h2, h3 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 42%;
+  object-position: center center;
   pointer-events: none;
   user-select: none;
 }
 .hero-photo video {
-  transform: scale(1.16);
+  transform: scale(1.22);
 }
 .hero-photo figcaption {
   position: absolute;
